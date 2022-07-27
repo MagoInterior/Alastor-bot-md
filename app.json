@@ -1,0 +1,73 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@MagoInterior
+MagoInterior /
+sakura-botv5
+Public
+forked from Scheyot/sakura-botv5
+
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+    Settings
+
+sakura-botv5/app.json
+@MagoInterior
+MagoInterior Update app.json
+Latest commit 966b74c 6 days ago
+History
+1 contributor
+27 lines (27 sloc) 746 Bytes
+{
+  "name": "SAKURA-BOTV5",
+  "description": "SAKURA-BOTV5",
+  "repository": "https://github.com/MagoInterior/sakura-botv5",
+  "logo": "https://i.pinimg.com/564x/9e/82/43/9e8243be358412fb8f44b2725314dbc8.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+            "url": "https://github.com/yespark/heroku-imagemagick-buildpack"
+        },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+You have no unread notifications
